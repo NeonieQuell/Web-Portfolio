@@ -72,6 +72,12 @@
 		height: 100%;
 	}
 
+	/* Profile Section */
+	.profile .skill-list .row .info {
+		width: 300px;
+		margin-bottom: 80px;
+	}
+
 	/* Project Section */
 	.project-container .info h2 {
 		font-size: 2em;

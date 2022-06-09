@@ -2,11 +2,9 @@
 	@keyframes transitionIn {
 		from {
 			opacity: 0;
-			transform: rotateX(-10deg);
 		}
 		to {
 			opacity: 1;
-			transform: rotateX(0);
 		}
 	}
 
@@ -72,6 +70,7 @@
 		font-size: 1.3em;
 		font-weight: 600;
 		font-family: segoe ui;
+		cursor: pointer;
 	}
 
 	.nav-items .active {
@@ -231,6 +230,72 @@
 	.about-container .about-img img {
 		width: 50%;
 		height: 50%;
+	}
+
+	/* Profile Section */
+	.profile {
+		max-width: 1250px;
+		margin: -2rem auto 0 auto;
+		padding: 4rem 2rem;
+		flex-direction: column;
+		animation: transitionIn 0.75s;
+	}
+
+	.profile .profile-heading {
+		width: 100%;
+		text-align: center;
+		padding: 80px 0;
+	}
+
+	.profile .profile-heading h1 {
+		font-size: 3.5em;
+		font-weight: bold;
+		font-family: segoe ui;
+	}
+
+	.profile .skill-list {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.profile .skill-list .row {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.profile .skill-list .row .info {
+		width: 500px;
+		margin: 0 2rem;
+		padding: 2rem;
+		border-radius: 10px;
+		margin-bottom: 100px;
+		box-shadow: var(--boxShadow);
+	}
+
+	.profile .skill-list .row:last-child .info:last-child {
+		margin-bottom: 0;
+	}
+
+	.profile .skill-list .row .info .ic {
+		text-align: center;
+	}
+
+	.profile .skill-list .row .info svg {
+		opacity: 75%;
+	}
+
+	.profile .skill-list .row .info h3 {
+		margin-top: 1.5rem;
+		font-weight: 600;
+		opacity: 80%;
+		text-align: center;
+	}
+
+	.profile .skill-list .row .info p {
+		opacity: 70%;
+		font-size: 1em;
+		text-align: justify;
+		margin-top: 1rem;
 	}
 
 	/* Project Section */

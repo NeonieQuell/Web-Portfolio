@@ -73,6 +73,7 @@
 		font-size: 1.3em;
 		font-weight: 600;
 		font-family: segoe ui;
+		cursor: pointer;
 	}
 
 	.nav-items .active {

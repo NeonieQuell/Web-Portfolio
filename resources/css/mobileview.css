@@ -75,6 +75,7 @@
 	/* Profile Section */
 	.profile .profile-heading h1 {
 		width: 300px;
+		font-size: 3em;
 	}
 
 	.profile .educ-list .info {

@@ -73,9 +73,16 @@
 	}
 
 	/* Profile Section */
+	.profile .profile-heading h1 {
+		width: 300px;
+	}
+
+	.profile .educ-list .info {
+		width: 300px;
+	}
+
 	.profile .skill-list .row .info {
 		width: 300px;
-		margin-bottom: 80px;
 	}
 
 	/* Project Section */

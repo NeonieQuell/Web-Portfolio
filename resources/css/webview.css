@@ -348,6 +348,20 @@
 		margin-top: 1rem;
 	}
 
+	.cert-list .cert {
+		display: flex;
+		justify-content: center;
+	}
+
+	.cert-list .cert:not(:first-child) {
+		margin-top: 4.8rem;
+	}
+
+	.cert-list .cert img {
+		box-shadow: var(--boxShadow);
+		width: 75%;
+	}
+
 	/* Project Section */
 	.project {
 		max-width: 1250px;

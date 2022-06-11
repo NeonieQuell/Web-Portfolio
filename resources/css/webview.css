@@ -137,7 +137,6 @@
 		font-size: 4em;
 		font-weight: bold;
 		font-family: segoe ui;
-		line-height: 70px;
 	}
 
 	.home-container .info h2 {
@@ -150,6 +149,7 @@
 		opacity: 70%;
 		max-width: 600px;
 		padding: 10px 0;
+		line-height: 1.5em;
 	}
 
 	.home-container .info .btn {
@@ -159,9 +159,9 @@
 		display: inline-block;
 		margin: 25px 0 0 0;
 		padding: 20px 30px;
-		letter-spacing: 1px;
 		border-radius: 10px;
 		text-align: center;
+		width: 170px;
 	}
 
 	.home-container .info .btn:hover {
@@ -205,9 +205,9 @@
 
 	.about-container .info p {
 		opacity: 70%;
-		max-width: 1000px;
+		max-width: 900px;
 		padding: 10px 0;
-		text-align: justify;
+		line-height: 1.5em;
 	}
 
 	.about-container .info .btn {
@@ -217,10 +217,9 @@
 		display: inline-block;
 		margin: 25px 0 0 0;
 		padding: 20px 30px;
-		letter-spacing: 1px;
 		border-radius: 10px;
-		width: 30%;
 		text-align: center;
+		width: 170px;
 	}
 
 	.about-container .info .btn:hover {
@@ -285,13 +284,12 @@
 	}
 
 	.profile .educ-list .info .content h3 {
-		line-height: 2rem;
 		font-weight: 600;
 		opacity: 80%;
 	}
 
 	.profile .educ-list .info .content p {
-		line-height: 2rem;
+		line-height: 1.5em;
 		opacity: 70%;
 	}
 
@@ -319,7 +317,6 @@
 	}
 
 	.profile .skill-list .row .info {
-		height: 300px;
 		width: 350px;
 		padding: 2rem;
 		border-radius: 10px;
@@ -335,7 +332,7 @@
 	}
 
 	.profile .skill-list .row .info h3 {
-		margin-top: 1.5rem;
+		margin-top: 1rem;
 		font-weight: 600;
 		opacity: 80%;
 		text-align: center;
@@ -343,9 +340,8 @@
 
 	.profile .skill-list .row .info p {
 		opacity: 70%;
-		font-size: 1em;
-		text-align: justify;
 		margin-top: 1rem;
+		line-height: 1.5em;
 	}
 
 	.cert-list .cert {
@@ -384,7 +380,7 @@
 	}
 
 	.project-list .project-container:not(:first-child) {
-		margin-top: 100px;
+		margin-top: 4.8rem;
 	}
 
 	.project-container {
@@ -418,7 +414,7 @@
 	.project-container .info p {
 		opacity: 70%;
 		max-width: 450px;
-		text-align: justify;
+		line-height: 1.5em;
 		margin-top: 1rem;
 	}
 

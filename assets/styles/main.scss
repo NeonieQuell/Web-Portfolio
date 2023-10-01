@@ -1,16 +1,31 @@
 $primary: #67217a;
 
-@media only screen and (min-height: 587px) {
-    html, body {
-        height: 100%;
-    }
-    
-    .body-content {
-        height: 100%;
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
     }
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
 
+body {
+    margin-bottom: 60px;
+}
+
+img{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
 
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap";
 @import "../../node_modules/bootstrap/scss/bootstrap";

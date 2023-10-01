@@ -1,4 +1,5 @@
 $primary: #67217a;
+$bs-primary: #0d6efd;
 
 html {
     font-size: 14px;
@@ -25,6 +26,10 @@ img{
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }
 
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap";

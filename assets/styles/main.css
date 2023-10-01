@@ -25,6 +25,10 @@ img {
   user-select: none;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

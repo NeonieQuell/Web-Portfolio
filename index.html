@@ -125,13 +125,19 @@
             <div class="col-12 col-xl-6 d-xl-flex align-items-center pt-3">
                 <div class="row">
                     <div class="col-12 text-center text-xl-start">
-                        <h4>Hello,</h4>
+                        <h4 class="pb-1">Hello,</h4>
                         <h1 class="display-3 fw-semi-bold">
-                            I'm Neonie Quell
+                            I'm <span class="auto-type text-primary"></span>
                         </h1>
-                        <h2 class="text-primary pb-2">Full Stack .NET Developer</h2>
-                        <h4>From Philippines</h4>
-                        <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#contactsModal">Contact me</button>
+                        <div class="row d-lg-flex justify-content-center justify-content-xl-start">
+                            <div class="col-12 col-md-8 col-xl-10">
+                                <p class="lh-lg">
+                                    A Full Stack .NET Developer committed to delivering high quality
+                                    applications that meet both technical and business requirements.
+                                </p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#contactsModal">Contact me</button>
                     </div>
                 </div>
             </div>
@@ -143,5 +149,14 @@
         </div>
     </footer>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/typed.umd.js"></script>
+    <script>
+        new Typed('.auto-type', {
+            strings: ['Neonie Quell'],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        });
+    </script>
 </body>
 </html>

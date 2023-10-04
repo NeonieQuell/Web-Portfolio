@@ -3,15 +3,6 @@ $bs-primary: #0d6efd;
 
 html {
     font-size: 14px;
-}
-
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
-}
-
-html {
     position: relative;
     min-height: 100%;
 }
@@ -31,6 +22,27 @@ img{
 
 .navbar {
     margin-top: -1px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+:root {
+    --bs-body-font-family: 'Poppins', sans-serif;
+}
+
+.fw-semi-bold {
+    font-weight: 600;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }
 
 // MDB Timeline
@@ -66,19 +78,4 @@ ul.timeline > li {
         height: 20px;
         z-index: 400;
     }
-}
-
-@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap";
-@import "../../node_modules/bootstrap/scss/bootstrap";
-
-:root {
-    --bs-body-font-family: 'Poppins', sans-serif;
-}
-
-.fw-semi-bold {
-    font-weight: 600;
-}
-
-.cursor-pointer {
-    cursor: pointer;
 }

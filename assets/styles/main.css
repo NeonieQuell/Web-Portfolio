@@ -16,6 +16,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  padding-top: 64px;
 }
 
 img {
@@ -25,8 +26,8 @@ img {
   user-select: none;
 }
 
-.cursor-pointer {
-  cursor: pointer;
+.navbar {
+  margin-top: -1px;
 }
 
 ul.timeline {
@@ -12044,4 +12045,8 @@ textarea.form-control-lg {
 
 .fw-semi-bold {
   font-weight: 600;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

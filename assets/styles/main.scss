@@ -8,8 +8,15 @@ $bs-primary: #0d6efd;
     --bs-body-font-family: 'Poppins', sans-serif;
 }
 
+html {
+    overflow-y: scroll !important;
+}
+
 body {
     padding-top: 64px;
+}
+
+body, .navbar, .footer {
     padding-right:0px !important;
     margin-right:0px !important;
 }

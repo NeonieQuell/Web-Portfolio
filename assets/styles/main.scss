@@ -30,6 +30,12 @@ img {
     cursor: pointer;
 }
 
+.card {
+    &:hover {
+        box-shadow: 0 8px 16px -8px rgba($black, .25);
+    }
+}
+
 ul.timeline {
     list-style-type: none;
     position: relative;

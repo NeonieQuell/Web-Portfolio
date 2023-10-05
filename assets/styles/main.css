@@ -12041,6 +12041,16 @@ ul.timeline > li::before {
   z-index: 400;
 }
 
-#skills-tech .card {
+#section-skills-tech .card {
   border: 1px solid #fff;
+}
+
+#main-projects .card {
+  border: 0;
+}
+
+@media only screen and (min-width: 576px) {
+  #main-projects .card {
+    border: 1px solid var(--bs-border-color-translucent);
+  }
 }/*# sourceMappingURL=main.css.map */

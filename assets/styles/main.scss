@@ -71,8 +71,22 @@ ul.timeline > li {
     }
 }
 
-#skills-tech {
+#section-skills-tech {
     .card {
         border: 1px solid $white;
+    }
+}
+
+#main-projects {
+    .card {
+        border: 0;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #main-projects {
+        .card {
+            border: 1px solid $card-border-color;
+        }
     }
 }

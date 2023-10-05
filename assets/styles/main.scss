@@ -37,12 +37,6 @@ img {
     cursor: pointer;
 }
 
-.card {
-    &:hover {
-        box-shadow: 0 8px 16px -8px rgba($black, .25);
-    }
-}
-
 ul.timeline {
     list-style-type: none;
     position: relative;
@@ -74,5 +68,14 @@ ul.timeline > li {
         width: 20px;
         height: 20px;
         z-index: 400;
+    }
+}
+
+#skills-tech {
+    .card {
+        border: 1px solid $white;
+        &:hover {
+            border: 1px solid $card-border-color;
+        }
     }
 }

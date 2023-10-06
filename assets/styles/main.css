@@ -12041,10 +12041,10 @@ ul.timeline > li::before {
   z-index: 400;
 }
 
-#section-skills-tech .card {
+#section-skills-tech .card, #section-certs .card {
   border: 0;
 }
-#section-skills-tech .card:hover {
+#section-skills-tech .card:hover, #section-certs .card:hover {
   transform: scale(1.1);
 }
 

@@ -12042,7 +12042,10 @@ ul.timeline > li::before {
 }
 
 #section-skills-tech .card {
-  border: 1px solid #fff;
+  border: 0;
+}
+#section-skills-tech .card:hover {
+  transform: scale(1.1);
 }
 
 #main-projects .card {

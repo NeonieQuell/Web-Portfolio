@@ -73,7 +73,10 @@ ul.timeline > li {
 
 #section-skills-tech {
     .card {
-        border: 1px solid $white;
+        border: 0;
+        &:hover {
+            transform: scale(1.1);    
+        }
     }
 }
 

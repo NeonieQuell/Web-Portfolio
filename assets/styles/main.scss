@@ -37,6 +37,12 @@ img {
     user-select: none;
 }
 
+.btn {
+    padding: ($spacer * .5) ($spacer);
+    display: inline-flex;
+    align-items: center;
+}
+
 .fw-semi-bold {
     font-weight: 600;
 }
@@ -76,16 +82,16 @@ ul.timeline {
     }
 }
 
-#section-skills,
-#section-certs,
-#main-projects {
+#skills-techs,
+#certificates,
+#projects {
     .card {
         border: 0;
     }
 }
 
 @media only screen and (min-width: $vw-small) {
-    #main-projects {
+    #projects {
         .card {
             border: 1px solid $card-border-color;
         }

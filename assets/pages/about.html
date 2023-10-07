@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/neo/neo-grad-pic.png" type="image/x-icon">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Neonie Quell - About</title>
 </head>
 <body class="d-flex flex-column min-vh-100">
     <!--  Contacts Modal  -->
-    <div class="modal fade" id="contactsModal" tabindex="-1" aria-labelledby="contactsModalLabel" aria-hidden="true">
+    <div class="modal fade" id="contacts-modal" tabindex="-1" aria-labelledby="contacts-modal-label" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="contactsModalLabel">Contacts</h1>
+                    <h1 class="modal-title fs-5" id="contacts-modal-label">Contacts</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -90,9 +90,8 @@
             </div>
         </div>
     </div>
-
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm py-3 fixed-top">
+        <nav class="navbar navbar-expand-lg bg-light border-bottom shadow-sm py-3 fixed-top">
             <div class="container-fluid container-lg">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -100,16 +99,16 @@
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav me-auto my-2 my-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link my-1 my-lg-0 me-lg-3" aria-current="page" href="../../index.html">Home</a>
+                            <a class="nav-link my-1 my-lg-0 me-lg-3" href="../../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link my-1 my-lg-0 mx-lg-3 active" href="about.html">About</a>
+                            <a class="nav-link my-1 my-lg-0 mx-lg-3 active" aria-current="page" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link my-1 my-lg-0 mx-lg-3" href="projects.html">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link my-1 my-lg-0 ms-lg-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#contactsModal">Contacts</a>
+                            <a class="nav-link my-1 my-lg-0 ms-lg-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#contacts-modal">Contacts</a>
                         </li>
                     </ul>
                     <div class="d-flex">
@@ -124,494 +123,485 @@
             </div>
         </nav>
     </header>
-
-    <main class="container">
-        <!--  About  -->
-        <section class="mb-4">
-            <div class="row mt-4 mb-3">
-                <div class="col-12">
-                    <h1 class="fw-semi-bold">About</h1>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center align-items-center align-items-xl-start">
-                <!--  Image  -->
-                <div class="col-12 col-lg-8 col-xxl-6 mt-xxl-2">
-                    <div class="row">
-                        <div class="col-12">
-                            <img src="../images/neo/neo-rizal-park.jpg" alt="neo-rizal-park.jpg" class="img-fluid rounded">
-                        </div>
+    <main role="main">
+        <div class="container">
+            <!--  About  -->
+            <section class="mb-4">
+                <div class="row mt-4 mb-3">
+                    <div class="col-12">
+                        <h1 class="fw-semi-bold">About</h1>
                     </div>
                 </div>
-                <!--  Paragraph  -->
-                <div class="col-12 col-lg-10 col-xxl-6">
-                    <div class="row">
-                        <div class="col-12 mt-4 mt-xxl-0 px-xxl-2">
-                            <p class="lh-lg">
-                                <strong>Neonie Quell "Neo" Ponce</strong>, a recent <strong>Magna Cum Laude</strong> graduate 
-                                in Information Technology, stands out as a rising star in the field. His academic excellence
-                                is matched by his outstanding skills in developing scalable web applications.
-                                <br> <br>
-                                Notably, even as a fresh graduate, Neo has led development teams effectively, showcasing his
-                                leadership abilities and teamwork. His proficiency in working within a Scrum Agile environment
-                                is a testament to his adaptability and project management skills.
-                                <br> <br>
-                                Neo's academic achievements, software development prowess, leadership experience, and familiarity
-                                with Agile methodologies make him a promising professional in the industry of Information
-                                Technology.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <!--  Skills & Technologies  -->
-        <section id="skills-techs" class="mb-3 mb-md-4">
-            <div class="row mt-4">
-                <div class="col-12">
-                    <h1 class="fw-semi-bold py-2">Skills & Technologies</h1>
-                </div>
-            </div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/dotnet-core.png" class="card-img-top" alt="dotnet-core.png">
-                                </div>
+                <div class="row d-flex justify-content-center align-items-center align-items-xl-start">
+                    <!--  Image  -->
+                    <div class="col-12 col-lg-8 col-xxl-6 mt-xxl-2">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="../images/neo/neo-rizal-park.jpg" alt="neo-rizal-park.jpg" class="img-fluid rounded">
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-4">ASP.NET Core</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/csharp.png" class="card-img-top" alt="csharp.png">
-                                </div>
+                    <!--  Paragraph  -->
+                    <div class="col-12 col-lg-10 col-xxl-6">
+                        <div class="row">
+                            <div class="col-12 mt-4 mt-xxl-0 px-xxl-2">
+                                <p class="lh-lg">
+                                    <strong>Neonie Quell "Neo" Ponce</strong>, a recent <strong>Magna Cum Laude</strong> graduate 
+                                    in Information Technology, stands out as a rising star in the field. His academic excellence
+                                    is matched by his outstanding skills in developing scalable web applications.
+                                    <br> <br>
+                                    Notably, even as a fresh graduate, Neo has led development teams effectively, showcasing his
+                                    leadership abilities and teamwork. His proficiency in working within a Scrum Agile environment
+                                    is a testament to his adaptability and project management skills.
+                                    <br> <br>
+                                    Neo's academic achievements, software development prowess, leadership experience, and familiarity
+                                    with Agile methodologies make him a promising professional in the industry of Information
+                                    Technology.
+                                </p>
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-4">C# (C-Sharp)</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/android.png" class="card-img-top" alt="android.png">
+            </section>
+            <hr>
+            <!--  Skills & Technologies  -->
+            <section class="mb-3 mb-md-4" id="skills-techs">
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h1 class="fw-semi-bold py-2">Skills & Technologies</h1>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/dotnet-core.png" class="card-img-top" alt="dotnet-core.png">
+                                    </div>
                                 </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-4">ASP.NET Core</h5>
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-4">Android</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/java.png" class="card-img-top" alt="java.png">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/csharp.png" class="card-img-top" alt="csharp.png">
+                                    </div>
                                 </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-4">C# (C-Sharp)</h5>
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-4">Java</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/sql.png" class="card-img-top" alt="sql.png">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/android.png" class="card-img-top" alt="android.png">
+                                    </div>
                                 </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-4">Android</h5>
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-4">SQL</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/javascript.png" class="card-img-top" alt="javascript.png">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/java.png" class="card-img-top" alt="java.png">
+                                    </div>
                                 </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-4">Java</h5>
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-4">JavaScript</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/git.png" class="card-img-top" alt="git.png">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/sql.png" class="card-img-top" alt="sql.png">
+                                    </div>
                                 </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-4">SQL</h5>
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-4">Git</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/bootstrap.png" class="card-img-top" alt="bootstrap.png">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/javascript.png" class="card-img-top" alt="javascript.png">
+                                    </div>
                                 </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-4">JavaScript</h5>
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-4">Bootstrap</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/sass.png" class="card-img-top" alt="sass.png">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/git.png" class="card-img-top" alt="git.png">
+                                    </div>
                                 </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-4">Git</h5>
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-4">SASS</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/html.png" class="card-img-top" alt="html.png">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/bootstrap.png" class="card-img-top" alt="bootstrap.png">
+                                    </div>
                                 </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-4">Bootstrap</h5>
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-4">HTML</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/css.png" class="card-img-top" alt="css.png">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/sass.png" class="card-img-top" alt="sass.png">
+                                    </div>
                                 </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-4">SASS</h5>
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-4">CSS</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-5 col-sm-6">
-                                    <img src="../images/technologies/agile.png" class="card-img-top" alt="agile.png">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/html.png" class="card-img-top" alt="html.png">
+                                    </div>
                                 </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-4">HTML</h5>
                             </div>
-                            <h5 class="card-title text-center fw-semi-bold mt-2 mt-sm-4">Agile - Scrum</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/css.png" class="card-img-top" alt="css.png">
+                                    </div>
+                                </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-4">CSS</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="row d-flex justify-content-center">
+                                    <div class="col-5 col-sm-6">
+                                        <img src="../images/technologies/agile.png" class="card-img-top" alt="agile.png">
+                                    </div>
+                                </div>
+                                <h5 class="card-title text-center fw-semi-bold mt-2 mt-sm-4">Agile - Scrum</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <!--  Work Experience  -->
-        <section class="mb-4">
-            <div class="row mt-4">
-                <div class="col-12 pt-1">
-                    <h1 class="fw-semi-bold">Work Experience</h1>
+            </section>
+            <hr>
+            <!--  Work Experience  -->
+            <section class="mb-4">
+                <div class="row mt-4">
+                    <div class="col-12 pt-1">
+                        <h1 class="fw-semi-bold">Work Experience</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-12">
-                            <ul class="timeline">
-                                <li class="ms-md-3">
-                                    <h6>.NET Developer | Internship</h6>
-                                    <p class="text-muted">
-                                        Willis Towers Watson (WTW)
-                                        <br>
-                                        April 2023 - August 2023
-                                    </p>                                               
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="timeline">
+                                    <li class="ms-md-3">
+                                        <h6>.NET Developer | Internship</h6>
+                                        <p class="text-muted">
+                                            Willis Towers Watson (WTW)
+                                            <br>
+                                            April 2023 - August 2023
+                                        </p>                                               
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Collaborated with project managers and spearheaded the
+                                                    design, development, and implementation of an ASP.NET MVC
+                                                    web application, resulting in shortened project timeline.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Collaborated with project managers and spearheaded the
-                                                design, development, and implementation of an ASP.NET MVC
-                                                web application, resulting in shortened project timeline.
-                                            </p>
+                                        <div class="row mt-n5">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Architected and implemented key software components, optimizing
+                                                    performance, and reducing system load times by 15%.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row mt-n5">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Mentored co-interns, fostering skill development, and promoting
+                                                    a collaborative environment.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Architected and implemented key software components, optimizing
-                                                performance, and reducing system load times by 15%.
-                                            </p>
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Conducted code reviews, ensuring adherence to organization's
+                                                    coding standards and improving code quality by 25%.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Facilitated the adoption of Agile Scrum methodologies, resulting
+                                                    in improved project transparency and on-time deliveries.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Mentored co-interns, fostering skill development, and promoting
-                                                a collaborative environment.
-                                            </p>
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Led daily stand-up meetings, sprint planning, sprint review,
+                                                    and retrospective sessions, fostering open communication and
+                                                    collaboration among team members.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Resolved impediments and roadblocks, enabling teams to maintain
+                                                    a steady pace of development and delivery.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Conducted code reviews, ensuring adherence to organization's
-                                                coding standards and improving code quality by 25%.
-                                            </p>
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Conducted regular retrospectives to gather feedback and drive
+                                                    process improvements.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
-                                        </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Facilitated the adoption of Agile Scrum methodologies, resulting
-                                                in improved project transparency and on-time deliveries.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
-                                        </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Led daily stand-up meetings, sprint planning, sprint review,
-                                                and retrospective sessions, fostering open communication and
-                                                collaboration among team members.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
-                                        </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Resolved impediments and roadblocks, enabling teams to maintain
-                                                a steady pace of development and delivery.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
-                                        </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Conducted regular retrospectives to gather feedback and drive
-                                                process improvements.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <!--  Education  -->
-        <section class="mb-4">
-            <div class="row mt-4">
-                <div class="col-12">
-                    <h1 class="fw-semi-bold pt-1">Education</h1>
+            </section>
+            <hr>
+            <!--  Education  -->
+            <section class="mb-4">
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h1 class="fw-semi-bold pt-1">Education</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-12">
-                            <ul class="timeline">
-                                <li class="ms-md-3">
-                                    <h6>Bachelor of Science in Information Technology</h6>
-                                    <p class="text-muted">
-                                        STI College Global City
-                                        <br>
-                                        2019 - 2023
-                                    </p>                                               
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="timeline">
+                                    <li class="ms-md-3">
+                                        <h6>Bachelor of Science in Information Technology</h6>
+                                        <p class="text-muted">
+                                            STI College Global City
+                                            <br>
+                                            2019 - 2023
+                                        </p>                                               
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Awarded as a <strong>Magna Cum Laude</strong> with a GWA of 1.22.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Awarded as a <strong>Magna Cum Laude</strong> with a GWA of 1.22.
-                                            </p>
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Top-most student performer of ICT Batch 2023.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    <strong>Champion of Code Fest 2022</strong> by developing mobile 
+                                                    and web application that functions as an online queuing system to 
+                                                    be used inside the school campus.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Top-most student performer of ICT Batch 2023.
-                                            </p>
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Designed, developed, and showcased an Android mobile
+                                                    application for IT Capstone Project 2 Exhibit SY. 2022 - 2023.
+                                                </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
+                                    </li>
+                                    <li class="ms-md-3">
+                                        <h6>IT in Mobile App and Web Development</h6>
+                                        <p class="text-muted">
+                                            STI College Global City
+                                            <br>
+                                            2017 - 2019
+                                        </p>                                               
+                                        <div class="row">
+                                            <div class="col-1 d-flex justify-content-end">
+                                                <span class="fs-4">&bull;</span>
+                                            </div>
+                                            <div class="col-10 lh-lg">
+                                                <p>
+                                                    Achieved <strong>1<sup>st</sup> place in Tagisan ng 
+                                                    Talino 2019</strong> Local Level under ICT category.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                <strong>Champion of Code Fest 2022</strong> by developing mobile 
-                                                and web application that functions as an online queuing system to 
-                                                be used inside the school campus.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
-                                        </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Designed, developed, and showcased an Android mobile
-                                                application for IT Capstone Project 2 Exhibit SY. 2022 - 2023.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="ms-md-3">
-                                    <h6>IT in Mobile App and Web Development</h6>
-                                    <p class="text-muted">
-                                        STI College Global City
-                                        <br>
-                                        2017 - 2019
-                                    </p>                                               
-                                    <div class="row">
-                                        <div class="col-1 d-flex justify-content-end">
-                                            <span class="fs-4">&bull;</span>
-                                        </div>
-                                        <div class="col-10 lh-lg">
-                                            <p>
-                                                Achieved <strong>1<sup>st</sup> place in Tagisan ng 
-                                                Talino 2019</strong> Local Level under ICT category.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <hr>
-
-        <!--  Certificates  -->
-        <section id="certificates">
-            <div class="row mt-4">
-                <div class="col-12">
-                    <h1 class="fw-semi-bold pt-1 mb-4">Certificates</h1>
+            </section>
+            <hr>
+            <!--  Certificates  -->
+            <section id="certificates">
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h1 class="fw-semi-bold pt-1 mb-4">Certificates</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mb-sm-2 mb-md-3 mb-xl-4">
-                <div class="col mb-4 mb-sm-3">
-                    <div class="card h-100">
-                        <a title="Click to view certificate" href="https://drive.google.com/file/d/1PB0rsMO8mJMElzMtAAZTjZ1IH1SXnFYH/view?usp=sharing" target="_blank">
-                            <img src="../images/certificates/dev-intern-2023.png" class="card-img-top" alt="dev-intern-2023.png">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center fw-semi-bold">.NET Developer Intern</h5>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mb-sm-2 mb-md-3 mb-xl-4">
+                    <div class="col mb-4 mb-sm-3">
+                        <div class="card h-100">
+                            <a title="Click to view certificate" href="https://drive.google.com/file/d/1PB0rsMO8mJMElzMtAAZTjZ1IH1SXnFYH/view?usp=sharing" target="_blank">
+                                <img src="../images/certificates/dev-intern-2023.png" class="card-img-top" alt="dev-intern-2023.png">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-semi-bold">.NET Developer Intern</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4 mb-sm-3">
+                        <div class="card h-100">
+                            <a title="Click to view certificate" href="https://drive.google.com/file/d/1i8mRpkb9hGFTZEe2gLWtFWimiDbXz9Dg/view?usp=sharing" target="_blank">
+                                <img src="../images/certificates/it-capstone-2023.PNG" class="card-img-top" alt="it-capstone-2023.PNG">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-semi-bold">IT Capstone Project 2 Exhibit</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4 mb-sm-3">
+                        <div class="card h-100">
+                            <a title="Click to view certificate" href="https://drive.google.com/file/d/1LUjual8MJWI0V-TuBXctyGLIZ-9QOcQQ/view?usp=sharing" target="_blank">
+                                <img src="../images/certificates/code-fest-2022.PNG" class="card-img-top" alt="code-fest-2022.PNG">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-semi-bold">Code Fest</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4 mb-sm-3">
+                        <div class="card h-100">
+                            <a title="Click to view certificate" href="https://drive.google.com/file/d/1-H0kcqeAeHiBQzRfaWGvCOOT7TWJhjYK/view?usp=sharing" target="_blank">
+                                <img src="../images/certificates/it-skills-olympics-2022.png" class="card-img-top" alt="it-skills-olympics-2022.png">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-semi-bold">IT Skills Olympics</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4 mb-sm-3">
+                        <div class="card h-100">
+                            <a title="Click to view certificate" href="https://drive.google.com/file/d/1jtQIJz9317YzZN-8_CZpIqYjgw12bZLN/view?usp=drive_link" target="_blank">
+                                <img src="../images/certificates/hackathon-2019.PNG" class="card-img-top" alt="hackathon-2019.PNG">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-semi-bold">Hackathon</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4 mb-sm-3">
+                        <div class="card h-100">
+                            <a title="Click to view certificate" href="https://drive.google.com/file/d/1OVcnf0cAAW3ik_sqtjZk7VbFVZLz0bre/view?usp=sharing" target="_blank">
+                                <img src="../images/certificates/enigma-sd-2019.PNG" class="card-img-top" alt="enigma-sd-2019.PNG">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-semi-bold">Enigma: Software Development</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col mb-4 mb-sm-3">
-                    <div class="card h-100">
-                        <a title="Click to view certificate" href="https://drive.google.com/file/d/1i8mRpkb9hGFTZEe2gLWtFWimiDbXz9Dg/view?usp=sharing" target="_blank">
-                            <img src="../images/certificates/it-capstone-2023.PNG" class="card-img-top" alt="it-capstone-2023.PNG">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center fw-semi-bold">IT Capstone Project 2 Exhibit</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-4 mb-sm-3">
-                    <div class="card h-100">
-                        <a title="Click to view certificate" href="https://drive.google.com/file/d/1LUjual8MJWI0V-TuBXctyGLIZ-9QOcQQ/view?usp=sharing" target="_blank">
-                            <img src="../images/certificates/code-fest-2022.PNG" class="card-img-top" alt="code-fest-2022.PNG">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center fw-semi-bold">Code Fest</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-4 mb-sm-3">
-                    <div class="card h-100">
-                        <a title="Click to view certificate" href="https://drive.google.com/file/d/1-H0kcqeAeHiBQzRfaWGvCOOT7TWJhjYK/view?usp=sharing" target="_blank">
-                            <img src="../images/certificates/it-skills-olympics-2022.png" class="card-img-top" alt="it-skills-olympics-2022.png">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center fw-semi-bold">IT Skills Olympics</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-4 mb-sm-3">
-                    <div class="card h-100">
-                        <a title="Click to view certificate" href="https://drive.google.com/file/d/1jtQIJz9317YzZN-8_CZpIqYjgw12bZLN/view?usp=drive_link" target="_blank">
-                            <img src="../images/certificates/hackathon-2019.PNG" class="card-img-top" alt="hackathon-2019.PNG">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center fw-semi-bold">Hackathon</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-4 mb-sm-3">
-                    <div class="card h-100">
-                        <a title="Click to view certificate" href="https://drive.google.com/file/d/1OVcnf0cAAW3ik_sqtjZk7VbFVZLz0bre/view?usp=sharing" target="_blank">
-                            <img src="../images/certificates/enigma-sd-2019.PNG" class="card-img-top" alt="enigma-sd-2019.PNG">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center fw-semi-bold">Enigma: Software Development</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
-
     <footer class="border-top footer text-muted mt-auto py-3 bg-light">
         <div class="container">
             &copy; 2023 - Neonie Quell Ponce - All rights reserved.
         </div>
     </footer>
-
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/neo/neo-grad-pic.png" type="image/x-icon">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Neonie Quell - Projects</title>
 </head>
 <body class="d-flex flex-column min-vh-100">
     <!--  Contacts Modal  -->
-    <div class="modal fade" id="contactsModal" tabindex="-1" aria-labelledby="contactsModalLabel" aria-hidden="true">
+    <div class="modal fade" id="contacts-modal" tabindex="-1" aria-labelledby="contacts-modal-label" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="contactsModalLabel">Contacts</h1>
+                    <h1 class="modal-title fs-5" id="contacts-modal-label">Contacts</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -90,9 +90,8 @@
             </div>
         </div>
     </div>
-
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm py-3 fixed-top">
+        <nav class="navbar navbar-expand-lg bg-light border-bottom shadow-sm py-3 fixed-top">
             <div class="container-fluid container-lg">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -100,16 +99,16 @@
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav me-auto my-2 my-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link my-1 my-lg-0 me-lg-3" aria-current="page" href="../../index.html">Home</a>
+                            <a class="nav-link my-1 my-lg-0 me-lg-3" href="../../index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link my-1 my-lg-0 mx-lg-3" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link my-1 my-lg-0 mx-lg-3 active" href="projects.html">Projects</a>
+                            <a class="nav-link my-1 my-lg-0 mx-lg-3 active" aria-current="page" href="projects.html">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link my-1 my-lg-0 ms-lg-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#contactsModal">Contacts</a>
+                            <a class="nav-link my-1 my-lg-0 ms-lg-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#contacts-modal">Contacts</a>
                         </li>
                     </ul>
                     <div class="d-flex">
@@ -124,102 +123,103 @@
             </div>
         </nav>
     </header>
-
-    <main class="container" id="projects">
-        <div class="row mt-4 mb-3">
-            <div class="col-12">
-                <h1 class="fw-semi-bold">Projects</h1>
+    <main role="main">
+        <div class="container" id="projects">
+            <div class="row mt-4 mb-3">
+                <div class="col-12">
+                    <h1 class="fw-semi-bold">Projects</h1>
+                </div>
             </div>
-        </div>
-        <div class="row row-cols-1 row-cols-lg-2 g-4 mb-sm-4">
-            <div class="col">
-                <div class="card mb-5 mb-sm-3">
-                    <div class="row g-0 d-flex justify-content-center">
-                        <div class="col-11 col-sm-5 col-md-4">
-                            <img src="../images/projects/locapartment.jpg" class="img-fluid rounded" alt="locapartment.jpg">
-                        </div>
-                        <div class="col-12 col-sm-7 col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title fw-semi-bold text-center text-sm-start">Locapartment</h5>
-                                <p class="card-text lh-lg">
-                                    An Android-based mobile application that functions as a local apartment finder.
-                                    Features a chat system for handy communication between tenants and landlords.
-                                    Uses Material Design 3 as the application theme.
-                                </p>
+            <div class="row row-cols-1 row-cols-lg-2 g-4 mb-sm-4">
+                <div class="col">
+                    <div class="card mb-5 mb-sm-3">
+                        <div class="row g-0 d-flex justify-content-center">
+                            <div class="col-11 col-sm-5 col-md-4">
+                                <img src="../images/projects/locapartment.jpg" class="img-fluid rounded" alt="locapartment.jpg">
+                            </div>
+                            <div class="col-12 col-sm-7 col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-semi-bold text-center text-sm-start">Locapartment</h5>
+                                    <p class="card-text lh-lg">
+                                        An Android-based mobile application that functions as a local apartment finder.
+                                        Features a chat system for handy communication between tenants and landlords.
+                                        Uses Material Design 3 as the application theme.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card mb-5 mb-sm-3">
-                    <div class="row g-0 d-flex justify-content-center">
-                        <div class="col-11 col-sm-5 col-md-4">
-                            <img src="../images/projects/kusinasyon.jpg" class="img-fluid rounded" alt="kusinasyon.jpg">
-                        </div>
-                        <div class="col-12 col-sm-7 col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title fw-semi-bold text-center text-sm-start">Kusinasyon</h5>
-                                <p class="card-text lh-lg">
-                                    An Android application that recommends Filipino cuisines based on ingredients.
-                                    Features recipe sharing and has a voice-assisted technology for easy navigation
-                                    in cooking procedures.
-                                </p>
+                <div class="col">
+                    <div class="card mb-5 mb-sm-3">
+                        <div class="row g-0 d-flex justify-content-center">
+                            <div class="col-11 col-sm-5 col-md-4">
+                                <img src="../images/projects/kusinasyon.jpg" class="img-fluid rounded" alt="kusinasyon.jpg">
+                            </div>
+                            <div class="col-12 col-sm-7 col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-semi-bold text-center text-sm-start">Kusinasyon</h5>
+                                    <p class="card-text lh-lg">
+                                        An Android application that recommends Filipino cuisines based on ingredients.
+                                        Features recipe sharing and has a voice-assisted technology for easy navigation
+                                        in cooking procedures.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card mb-5 mb-sm-3">
-                    <div class="row g-0 d-flex justify-content-center">
-                        <div class="col-11 col-sm-5 col-md-4">
-                            <img src="../images/projects/twitter-clone.png" class="img-fluid rounded" alt="twitter-clone.png">
-                        </div>
-                        <div class="col-12 col-sm-7 col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title fw-semi-bold text-center text-sm-start">Twitter Clone</h5>
-                                <p class="card-text lh-lg">
-                                    A simple clone of the old Twitter mobile application, now called "X".
-                                    Uses SQLite as the database for user accounts and tweets. Runs only on
-                                    local devices.
-                                </p>
+                <div class="col">
+                    <div class="card mb-5 mb-sm-3">
+                        <div class="row g-0 d-flex justify-content-center">
+                            <div class="col-11 col-sm-5 col-md-4">
+                                <img src="../images/projects/twitter-clone.png" class="img-fluid rounded" alt="twitter-clone.png">
+                            </div>
+                            <div class="col-12 col-sm-7 col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-semi-bold text-center text-sm-start">Twitter Clone</h5>
+                                    <p class="card-text lh-lg">
+                                        A simple clone of the old Twitter mobile application, now called "X".
+                                        Uses SQLite as the database for user accounts and tweets. Runs only on
+                                        local devices.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card mb-5 mb-sm-3">
-                    <div class="row g-0 d-flex justify-content-center">
-                        <div class="col-11 col-sm-5 col-md-4">
-                            <img src="../images/projects/noteapp.png" class="img-fluid rounded" alt="noteapp.png">
-                        </div>
-                        <div class="col-12 col-sm-7 col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title fw-semi-bold text-center text-sm-start">NoteApp</h5>
-                                <p class="card-text lh-lg">
-                                    An Android-based note taking mobile application. Uses SQLite for the database, 
-                                    Java for the backend language, and XML for the views.
-                                </p>
+                <div class="col">
+                    <div class="card mb-5 mb-sm-3">
+                        <div class="row g-0 d-flex justify-content-center">
+                            <div class="col-11 col-sm-5 col-md-4">
+                                <img src="../images/projects/noteapp.png" class="img-fluid rounded" alt="noteapp.png">
+                            </div>
+                            <div class="col-12 col-sm-7 col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-semi-bold text-center text-sm-start">NoteApp</h5>
+                                    <p class="card-text lh-lg">
+                                        An Android-based note taking mobile application. Uses SQLite for the database, 
+                                        Java for the backend language, and XML for the views.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card mb-5 mb-sm-3">
-                    <div class="row g-0 d-flex justify-content-center">
-                        <div class="col-11 col-sm-12">
-                            <img src="../images/projects/dlms.png" class="card-img-top rounded" alt="dlms.png">
-                        </div>
-                        <div class="col-12">
-                            <div class="card-body">
-                                <h5 class="card-title fw-semi-bold text-center text-sm-start">Digital Library Management System (DLMS)</h5>
-                                <p class="card-text lh-lg">
-                                    A C# .NET windows form application which functions as a prototype for
-                                    a digital library management system to be used inside the university campus.
-                                </p>
+                <div class="col">
+                    <div class="card mb-5 mb-sm-3">
+                        <div class="row g-0 d-flex justify-content-center">
+                            <div class="col-11 col-sm-12">
+                                <img src="../images/projects/dlms.png" class="card-img-top rounded" alt="dlms.png">
+                            </div>
+                            <div class="col-12">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-semi-bold text-center text-sm-start">Digital Library Management System (DLMS)</h5>
+                                    <p class="card-text lh-lg">
+                                        A C# .NET windows form application which functions as a prototype for
+                                        a digital library management system to be used inside the university campus.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

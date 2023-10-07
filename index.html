@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/neo/neo-grad-pic.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Neonie Quell</title>
 </head>
 <body class="d-flex flex-column min-vh-100">
     <!--  Contacts Modal  -->
-    <div class="modal fade" id="contactsModal" tabindex="-1" aria-labelledby="contactsModalLabel" aria-hidden="true">
+    <div class="modal fade" id="contacts-modal" tabindex="-1" aria-labelledby="contacts-modal-label" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="contactsModalLabel">Contacts</h1>
+                    <h1 class="modal-title fs-5" id="contacts-modal-label">Contacts</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -90,9 +90,8 @@
             </div>
         </div>
     </div>
-
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm py-3 fixed-top">
+        <nav class="navbar navbar-expand-lg bg-light border-bottom shadow-sm py-3 fixed-top">
             <div class="container-fluid container-lg">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -109,7 +108,7 @@
                             <a class="nav-link my-1 my-lg-0 mx-lg-3" href="assets/pages/projects.html">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link my-1 my-lg-0 ms-lg-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#contactsModal">Contacts</a>
+                            <a class="nav-link my-1 my-lg-0 ms-lg-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#contacts-modal">Contacts</a>
                         </li>
                     </ul>
                     <div class="d-flex">
@@ -124,49 +123,48 @@
             </div>
         </nav>
     </header>
-
-    <main class="container mb-5 my-xl-auto ">
-        <div class="row d-xl-flex flex-row-reverse mt-3">
-            <div class="col-12 col-xl-6">
-                <div class="row d-flex justify-content-center justify-content-xl-end">
-                    <div class="col-9 col-md-6 col-lg-4 col-xl-11">
-                        <img src="./assets/images/neo/neo-grad-pic-home.png" alt="neo-grad-pic.png" class="img-fluid">
+    <main role="main">
+        <div class="container mb-5 my-xl-auto">
+            <div class="row d-xl-flex flex-row-reverse mt-3">
+                <div class="col-12 col-xl-6">
+                    <div class="row d-flex justify-content-center justify-content-xl-end">
+                        <div class="col-9 col-md-6 col-lg-4 col-xl-11">
+                            <img src="./assets/images/neo/neo-grad-pic-home.png" alt="neo-grad-pic.png" class="img-fluid">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-xl-6 d-xl-flex align-items-center mt-3 mt-xl-0">
-                <div class="row">
-                    <div class="col-12 text-center text-xl-start">
-                        <h1 class="display-6">Hello,</h1>
-                        <h1 class="display-3 fw-semi-bold" id="typing-name">
-                            I'm <span class="auto-type text-primary"></span>
-                        </h1>
-                        <div class="row d-lg-flex justify-content-center justify-content-xl-start">
-                            <div class="col-12 col-md-8 col-xl-10">
-                                <p class="lh-lg">
-                                    A software developer committed to delivering high quality
-                                    applications that meet both technical and business requirements.
-                                </p>
+                <div class="col-12 col-xl-6 d-xl-flex align-items-center mt-3 mt-xl-0">
+                    <div class="row">
+                        <div class="col-12 text-center text-xl-start">
+                            <h1 class="display-6">Hello,</h1>
+                            <h1 class="display-3 fw-semi-bold" id="typing-name">
+                                I'm <span class="auto-type text-primary"></span>
+                            </h1>
+                            <div class="row d-lg-flex justify-content-center justify-content-xl-start">
+                                <div class="col-12 col-md-8 col-xl-10">
+                                    <p class="lh-lg">
+                                        A software developer committed to delivering high quality
+                                        applications that meet both technical and business requirements.
+                                    </p>
+                                </div>
                             </div>
+                            <a class="btn btn-primary btn-resizable btn-primary-action mt-2" title="Send an email" href="mailto:neoniequell.ponce@yahoo.com">
+                                Get in touch
+                                <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 -960 960 960" width="16" fill="currentColor" class="bi ms-2">
+                                    <path d="M419-80q-28 0-52.5-12T325-126L124-381q-8-9-7-21.5t9-20.5q20-21 48-25t52 11l74 45v-328q0-17 11.5-28.5T340-760q17 0 29 11.5t12 28.5v200h299q50 0 85 35t35 85v160q0 66-47 113T640-80H419Zm60-520q-17 0-28.5-11.5T439-640q0-2 5-20 8-14 12-28.5t4-31.5q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 17 4 31.5t12 28.5q3 5 4 10t1 10q0 17-11 28.5T202-600q-11 0-20.5-6T167-621q-13-22-20-47t-7-52q0-83 58.5-141.5T340-920q83 0 141.5 58.5T540-720q0 27-7 52t-20 47q-5 9-14 15t-20 6Z"/>
+                                </svg>
+                            </a>
                         </div>
-                        <a class="btn btn-primary mt-2" title="Send an email" href="mailto:neoniequell.ponce@yahoo.com">
-                            Get in touch
-                            <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 -960 960 960" width="16" fill="currentColor" class="bi ms-2">
-                                <path d="M419-80q-28 0-52.5-12T325-126L124-381q-8-9-7-21.5t9-20.5q20-21 48-25t52 11l74 45v-328q0-17 11.5-28.5T340-760q17 0 29 11.5t12 28.5v200h299q50 0 85 35t35 85v160q0 66-47 113T640-80H419Zm60-520q-17 0-28.5-11.5T439-640q0-2 5-20 8-14 12-28.5t4-31.5q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 17 4 31.5t12 28.5q3 5 4 10t1 10q0 17-11 28.5T202-600q-11 0-20.5-6T167-621q-13-22-20-47t-7-52q0-83 58.5-141.5T340-920q83 0 141.5 58.5T540-720q0 27-7 52t-20 47q-5 9-14 15t-20 6Z"/>
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-
     <footer class="border-top footer text-muted mt-auto py-3 bg-light">
         <div class="container">
             &copy; 2023 - Neonie Quell Ponce - All rights reserved.
         </div>
     </footer>
-
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/typed.umd.js"></script>
     <script src="assets/js/index.html.js" defer></script>

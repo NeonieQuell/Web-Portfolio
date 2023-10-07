@@ -51,6 +51,12 @@ img {
     cursor: pointer;
 }
 
+.btn-resizable {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
 ul.timeline {
     list-style-type: none;
     position: relative;
@@ -95,5 +101,11 @@ ul.timeline {
         .card {
             border: 1px solid $card-border-color;
         }
+    }
+}
+
+@media only screen and (min-width: $vw-large) {
+    .btn-resizable {
+        width: auto;
     }
 }

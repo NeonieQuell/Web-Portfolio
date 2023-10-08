@@ -5,7 +5,7 @@ $vw-large: 992px;
 $vw-extra-large: 1200px;
 
 $primary: #67217a;
-$bs-primary: #0d6efd;
+$white: #fbfbfb;
 
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap";
 @import "../../node_modules/bootstrap/scss/bootstrap";
@@ -38,9 +38,13 @@ img {
 }
 
 .btn {
-    padding: ($spacer * .5) ($spacer);
+    padding: ($spacer * .75) ($spacer * 1.5);
     display: inline-flex;
     align-items: center;
+}
+
+.card {
+    background-color: #fbfbfb;
 }
 
 .fw-semi-bold {

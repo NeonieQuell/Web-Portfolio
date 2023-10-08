@@ -38,9 +38,12 @@ img {
 }
 
 .btn {
-    padding: ($spacer * .75) ($spacer * 1.5);
     display: inline-flex;
     align-items: center;
+}
+
+.btn-primary-action {
+    padding: ($spacer * .75) ($spacer * 1.5);
 }
 
 .card {

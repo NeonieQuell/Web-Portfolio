@@ -1,3 +1,3 @@
 # Web Portfolio
 
-A simple web portfolio.
+My simple web portfolio.

@@ -17,7 +17,7 @@ window.addEventListener('resize', function() {
 });
 
 new Typed('.auto-type', {
-    strings: ['Neonie Quell', 'a developer'],
+    strings: ['Neonie Quell'],
     typeSpeed: 120,
     backSpeed: 120,
     loop: true

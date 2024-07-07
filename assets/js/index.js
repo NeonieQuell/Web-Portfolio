@@ -22,3 +22,8 @@ new Typed('.auto-type', {
     backSpeed: 120,
     loop: true
 });
+
+const btnSendEmail = document.querySelector('#btn-send-email');
+btnSendEmail.addEventListener('click', function() {
+    window.open('mailto:neoniequell.ponce@yahoo.com');
+});
